@@ -1,0 +1,16 @@
+{
+ "name": "arb",
+ "version": "1.0.0",
+ "description": "The goal of this project is to show the feasibility of executing arbitrage trades on Avalanche. We start out by observing a couple of pairs and simply show notifications on opportunities.",
+ "main": "index.js",
+ "scripts": {
+  "start": "node index.js"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "@pangolindex/exchange-contracts": "^1.0.2",
+  "ethers": "^5.5.2"
+ }
+}
